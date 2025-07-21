@@ -10,22 +10,32 @@
   <div id="output" style="margin-top: 40px; font-size: 1.5rem;"></div>
 
   <script>
-    // Get the output area
     const output = document.getElementById("output");
 
-    // Helper function to show text
     function showActivity(text) {
       output.innerHTML += text + "<br>";
     }
 
-    // TESTING: show each activity with delays (seconds converted to ms)
-    setTimeout(() => { showActivity("Waking up ☀️"); }, 1000);     // after 1 sec
-    setTimeout(() => { showActivity("Brushing teeth 🦷"); }, 5000); // after 5 sec
-    setTimeout(() => { showActivity("Walking the dog 🐕"); }, 10000); // after 10 sec
-    setTimeout(() => { showActivity("Doing workout 💪"); }, 15000); // after 15 sec
-    setTimeout(() => { showActivity("Eating breakfast 🍳"); }, 20000); // after 20 sec
-    setTimeout(() => { showActivity("Showering 🚿"); }, 25000); // after 25 sec
-    setTimeout(() => { showActivity("Getting ready 👕"); }, 30000); // after 30 sec
+    // after 1 second
+    setTimeout(() => { showActivity("Waking up"); }, 1000);
+
+    // after 1 minute
+    setTimeout(() => { showActivity("Brushing teeth"); }, 60000);
+
+    // after 5 minutes
+    setTimeout(() => { showActivity("Walking the dog"); }, 300000);
+
+    // after 25 minutes
+    setTimeout(() => { showActivity("Doing workout"); }, 1500000);
+
+    // after 90 minutes
+    setTimeout(() => { showActivity("Eating breakfast"); }, 5400000);
+
+    // after 110 minutes
+    setTimeout(() => { showActivity("Showering / cleaning up"); }, 6600000);
+
+    // after 130 minutes
+    setTimeout(() => { showActivity("Leaving for work or school"); }, 7800000);
   </script>
 
 </body>
