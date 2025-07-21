@@ -16,4 +16,4 @@ I added personalized emojis to each activity.
 
 ## How does this project simulate or differ from real-world schedules?
 It is similar to real-world activities in that the order they are in is the appropriate order they would happen in real life.
-They differ in that in the real world the timings may be different day to day and have some variance, and that some days I may not have the motivation to work out and might sleep in.
+They differ in that in the real world the timings may be different day to day and have some variance, and that some days I may not have the motivation to work out and might sleep in instead.
