@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Daily Schedule Simulation</title>
+</head>
+<body style="font-family: sans-serif; text-align: center; padding-top: 60px; background-color: #eef;">
+
+  <h1>My Simulated Day</h1>
+  <div id="output" style="margin-top: 40px; font-size: 1.5rem;"></div>
+
+  <script>
+    const output = document.getElementById("output");
+
+    function showActivity(text) {
+      output.innerHTML += text + "<br>";
+    }
+
+    setTimeout(() => { showActivity("Waking up"); }, 1000);
+    setTimeout(() => { showActivity("Brushing teeth"); }, 5000);
+    setTimeout(() => { showActivity("Walking the dog"); }, 10000);
+    setTimeout(() => { showActivity("Doing workout"); }, 15000);
+    setTimeout(() => { showActivity("Eating breakfast"); }, 20000);
+    setTimeout(() => { showActivity("Showering"); }, 25000);
+    setTimeout(() => { showActivity("Getting ready for the day"); }, 30000);
+  </script>
+
+</body>
+</html>
